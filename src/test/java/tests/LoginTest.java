@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
 		login.login("Admin", "admin123");
 		Assert.assertTrue(driver.getCurrentUrl().contains("dashboard"));
 		
-		
+		// testing git commit
 	}
 	
 
